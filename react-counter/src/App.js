@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const clickFxn = () =>{
+  alert("now you know how to handle onclick event")
+}
+
 function App() {
   return (
     <div className="App">
@@ -10,7 +14,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button>Hello World</button>
+        <button onClick= {clickFxn}>Hello World
+        </button>
         <p>number : 0</p>
       </header>
     </div>

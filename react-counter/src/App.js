@@ -13,7 +13,7 @@ class App extends React.Component {
   
   render(){
     const buttonClk = () => {
-      this.setState({number: 1});
+      this.setState({number: this.state.number + 1});
     }
     return (
       <div className="App">
